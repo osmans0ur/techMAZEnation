@@ -117,23 +117,10 @@ body {
   text-shadow: 0 0 15px #00ffff;
 }
 
-.tech-logo {
+.club-logo-img {
   width: 40px;
   height: 40px;
-  background: linear-gradient(45deg, #4169E1, #6495ED);
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 15px rgba(65, 105, 225, 0.5);
-}
-
-.logo-pattern {
-  width: 24px;
-  height: 24px;
-  background: white;
-  clip-path: polygon(
-    0% 20%, 15% 20%, 15% 0%, 30% 0%, 30% 20%, 45% 20%,
-    45% 40%, 30% 40%, 30% 60%, 15% 60%, 15% 40%, 0% 40%
-  );
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  object-fit: contain;
 }
